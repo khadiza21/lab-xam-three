@@ -2,16 +2,16 @@
 using namespace std;
 int main()
 {
-    int a, b, c, d, e, f, x;
+    int a, b, c, d, e, f, x, takahashi = 0, aoki = 0;
     cin >> a >> b >> c >> d >> e >> f >> x;
-    int takahashi = 0, aoki = 0;
-    for (int k = 0; k < x; ++k)
+
+    for (int i = 0; i < x; i++)
     {
-        if (k % (a + c) < a)
+        if (i % (a + c) < a)
         {
             takahashi += b;
         }
-        if (k % (d + f) < d)
+        if (i % (d + f) < d)
         {
             aoki += e;
         }
