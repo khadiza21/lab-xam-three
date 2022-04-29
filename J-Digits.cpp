@@ -5,7 +5,7 @@ int main()
 {
 
     int digitOne, digit1, digit2, digit3, digitTwo, digitThree;
-    cin >> digitOne;
+    cin >> digitOne;   
     digit3 = digitOne % 10;
     digit2 = (digitOne / 10) % 10;
     digit1 = (digitOne / 10) / 10;
